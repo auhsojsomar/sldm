@@ -21,7 +21,10 @@ nav {
 .navbar {
     background: #0d4717;
 }
-
+.navbar > button > span {
+    color: white;
+    font-size: 30px;
+}
 .navbar a {
     color: #fff;
     font-weight: 500;
@@ -44,7 +47,6 @@ nav {
 .navbar a:hover::before {
     transform: translate(-50%, 0) scaleX(1);
 }
-
 .carousel-indicators li {
     width: 17px;
     height: 17px;
@@ -62,8 +64,8 @@ nav {
 
 .carousel.slide > a {
     background: rgba(0, 0, 0, 0.7);
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     position: absolute;
     top: 50%;
