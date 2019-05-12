@@ -1,0 +1,113 @@
+body {
+    color: #0d4717;
+    background: #f7f7f7;
+    font-family: "Ebrima Regular";
+}
+h1,
+h3,
+nav {
+    font-family: "Oceania Regular";
+    font-weight: bold;
+}
+.head-top {
+    background: #0d4717;
+    padding: 5px;
+    color: white;
+}
+.head-top i {
+    padding-right: 5px;
+}
+
+.navbar {
+    background: #0d4717;
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar a::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform-origin: center;
+    transform: translate(-50%, 0) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar a:hover::before {
+    transform: translate(-50%, 0) scaleX(1);
+}
+
+.carousel-indicators li {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: none;
+}
+
+.carousel-indicators li.active {
+    width: 45px;
+    height: 17px;
+    border-radius: 30px;
+    border: none;
+    transition: width 0.5s ease-in-out;
+}
+
+.carousel.slide > a {
+    background: rgba(0, 0, 0, 0.7);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0 30px;
+}
+
+.students {
+    height: 70vh;
+    background: linear-gradient(
+            to right bottom,
+            rgba(13, 71, 23, 1),
+            rgba(126, 201, 84, 0.5)
+        ),
+        url("../../lib/images/students_img.jpg") no-repeat center;
+    background-size: cover;
+    /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
+}
+
+.img-offer {
+    height: 250px;
+}
+.form-border-green input,
+.form-border-green textarea {
+    border: 2px solid #0d4717;
+    border-radius: 5px;
+}
+.btn-inquire {
+    background: #0d4717;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 70px;
+    display: table;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.form-icon-left input {
+    position: relative;
+    padding-left: 30px;
+}
+.form-icon-left i {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 15px;
+}
