@@ -67,7 +67,7 @@ nav {
     height: 17px;
     border-radius: 30px;
     border: none;
-    transition: width 0.5s ease-in-out;
+    transition: width 0.7s ease-out;
 }
 
 .carousel.slide > a {
