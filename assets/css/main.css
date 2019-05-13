@@ -2,26 +2,31 @@
     font-family: "Ebrima Regular";
     src: url("../../lib/fonts/Ebrima-Regular.ttf");
 }
+
 @font-face {
     font-family: "Oceania Regular";
     src: url("../../lib/fonts/Oceania-Regular.ttf");
 }
+
 body {
     color: #0d4717;
     background: #f7f7f7;
     font-family: "Ebrima Regular";
 }
+
 h1,
 h3,
 nav {
     font-family: "Oceania Regular";
     font-weight: bold;
 }
+
 .head-top {
     background: #0d4717;
     padding: 5px;
     color: white;
 }
+
 .head-top i {
     padding-right: 5px;
 }
@@ -29,10 +34,12 @@ nav {
 .navbar {
     background: #0d4717;
 }
-.navbar > button > span {
+
+.navbar>button>span {
     color: white;
     font-size: 30px;
 }
+
 .navbar a {
     color: #fff;
     font-weight: 500;
@@ -55,6 +62,7 @@ nav {
 .navbar a:hover::before {
     transform: translate(-50%, 0) scaleX(1);
 }
+
 .carousel-indicators li {
     width: 17px;
     height: 17px;
@@ -70,7 +78,7 @@ nav {
     transition: width 0.7s ease-out;
 }
 
-.carousel.slide > a {
+.carousel.slide>a {
     background: rgba(0, 0, 0, 0.7);
     width: 60px;
     height: 60px;
@@ -83,11 +91,9 @@ nav {
 
 .students {
     height: 70vh;
-    background: linear-gradient(
-            to right bottom,
+    background: linear-gradient(to right bottom,
             rgba(13, 71, 23, 1),
-            rgba(126, 201, 84, 0.5)
-        ),
+            rgba(126, 201, 84, 0.5)),
         url("../../lib/images/students_img.jpg") no-repeat center;
     background-size: cover;
     /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
@@ -96,11 +102,13 @@ nav {
 .img-offer {
     height: 250px;
 }
+
 .form-border-green input,
 .form-border-green textarea {
     border: 2px solid #0d4717;
     border-radius: 5px;
 }
+
 .btn-inquire {
     background: #0d4717;
     border: none;
@@ -111,10 +119,12 @@ nav {
     margin: 0 auto;
     border-radius: 30px;
 }
+
 .form-icon-left input {
     position: relative;
     padding-left: 30px;
 }
+
 .form-icon-left i {
     position: absolute;
     z-index: 1;
