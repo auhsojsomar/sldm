@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Ebrima Regular";
+    src: url("../../lib/fonts/Ebrima-Regular.ttf");
+}
+@font-face {
+    font-family: "Oceania Regular";
+    src: url("../../lib/fonts/Oceania-Regular.ttf");
+}
 body {
     color: #0d4717;
     background: #f7f7f7;
