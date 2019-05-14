@@ -27,16 +27,14 @@ nav {
     color: white;
 }
 
-.head-top i {
-    color:white;
-}
-
 .head-top span {
     margin: 0 3px;
 }
 
 .head-top i {
     padding-right: 5px;
+    color:white;
+
 }
 
 .navbar {
