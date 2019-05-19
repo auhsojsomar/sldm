@@ -9,7 +9,8 @@
 }
 
 body {
-    color: #0d4717;
+    /* color: #0d4717; */
+    color: black;
     background: #f7f7f7;
     font-family: "Ebrima Regular";
 }
@@ -33,7 +34,7 @@ nav {
 
 .head-top i {
     padding-right: 5px;
-    color:white;
+    color: white;
 
 }
 
@@ -84,7 +85,7 @@ nav {
     transition: width 0.7s ease-out;
 }
 
-.carousel.slide>a {
+.carousel.slide a {
     background: rgba(0, 0, 0, 0.7);
     width: 60px;
     height: 60px;
@@ -102,7 +103,7 @@ nav {
             rgba(126, 201, 84, 0.5)),
         url("../../lib/images/students_img.jpg") no-repeat center;
     background-size: cover;
-    /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
+    background-attachment: fixed;
 }
 
 .img-offer {
@@ -138,28 +139,68 @@ nav {
     left: 15px;
 }
 
-.footer h1{
-    font-size:1.7rem;
+.footer {
+    background: #1b8427;
+    color: white;
 }
+
+.footer h1 {
+    font-size: 1.7rem;
+}
+
+.footer .frow-1 a {
+    color: white;
+}
+
 .footer .frow-1 i {
-    font-size:3rem;
+    font-size: 2rem;
     margin: 0 5px;
 }
 
-.footer .frow-2 a{
+.footer .frow-2 a {
     display: block;
-    font-family: "Oceania Regular";
+    font-family: "Ebrima Regular";
     font-size: 1.2rem;
     padding: 4px 0;
     text-decoration: none;
-    color: black;
-    margin-left:15px;
+    margin-left: 15px;
+    color: white;
 }
-.footer .frow-3 p, .footer .frow-3 iframe{
+
+.footer .frow-3 p,
+.footer .frow-3 iframe {
     margin-left: 15px;
     margin-bottom: 5px;
 }
-.footer .frow-3 i{
-    margin-right:5px;
+
+.footer .frow-3 i {
+    margin-right: 5px;
     font-size: 1.2rem;
+}
+
+.footer-copyright {
+    color: white;
+    background: #0d4717;
+}
+
+@media (max-width: 540px) {
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-indicators li {
+        width: 12px;
+        height: 12px;
+    }
+
+    .carousel-indicators li.active {
+        height: 12px;
+        width: 33px;
+    }
+
+    .carousel.slide a {
+        width: 40px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
 }
