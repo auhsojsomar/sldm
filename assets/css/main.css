@@ -8,6 +8,7 @@
     src: url("../../lib/fonts/Oceania-Regular.ttf");
 }
 
+
 body {
     background: #f7f7f7;
     font-family: "Ebrima Regular";
@@ -99,6 +100,19 @@ nav {
     background-attachment: fixed;
 }
 
+.wwo a {
+    text-decoration: none;
+    color: #0d4717;
+    border: 1px solid #0d4717;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.wwo a:hover {
+    background: #0d4717;
+    color: #FFF;
+}
+
 .img-offer {
     height: 250px;
 }
@@ -175,6 +189,7 @@ nav {
     color: #FFF;
     background: #0d4717;
 }
+
 
 @media (max-width: 540px) {
     .carousel-caption h1 {
