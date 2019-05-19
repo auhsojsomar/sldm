@@ -215,3 +215,9 @@ nav {
         font-size: 0.8rem;
     }
 }
+
+@media (max-width:768px) {
+    .card-deck .card {
+        flex: 1 0 100%;
+    }
+}
