@@ -92,8 +92,8 @@ nav {
 .students {
     min-height: 70vh;
     background: linear-gradient(to right bottom,
-            rgba(13, 71, 23, 1),
-            rgba(126, 201, 84, 0.5)),
+            rgb(6, 49, 13),
+            rgba(76, 138, 41, 0.7)),
         url("../../lib/images/students_img.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
