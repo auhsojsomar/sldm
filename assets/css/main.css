@@ -36,7 +36,7 @@ nav {
     background: #0d4717;
 }
 
-.navbar>button>span {
+.navbar button span {
     color: #FFF;
     font-size: 30px;
 }
@@ -88,6 +88,7 @@ nav {
     top: 50%;
     transform: translate(0, -50%);
     margin: 0 30px;
+    transition: all ease-in-out .5s;
 }
 
 .students {
@@ -106,6 +107,7 @@ nav {
     border: 1px solid #0d4717;
     padding: 5px 20px;
     border-radius: 30px;
+    transition: all ease-in-out .5s;
 }
 
 .wwo a:hover {
