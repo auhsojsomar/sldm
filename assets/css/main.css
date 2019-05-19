@@ -9,8 +9,6 @@
 }
 
 body {
-    /* color: #0d4717; */
-    color: black;
     background: #f7f7f7;
     font-family: "Ebrima Regular";
 }
@@ -25,17 +23,12 @@ nav {
 .head-top {
     background: #0d4717;
     padding: 5px;
-    color: white;
-}
-
-.head-top span {
-    margin: 0 3px;
+    color: #FFF;
 }
 
 .head-top i {
     padding-right: 5px;
-    color: white;
-
+    color: #FFF;
 }
 
 .navbar {
@@ -43,7 +36,7 @@ nav {
 }
 
 .navbar>button>span {
-    color: white;
+    color: #FFF;
     font-size: 30px;
 }
 
@@ -97,7 +90,7 @@ nav {
 }
 
 .students {
-    height: 70vh;
+    min-height: 70vh;
     background: linear-gradient(to right bottom,
             rgba(13, 71, 23, 1),
             rgba(126, 201, 84, 0.5)),
@@ -119,7 +112,7 @@ nav {
 .btn-inquire {
     background: #0d4717;
     border: none;
-    color: white;
+    color: #FFF;
     font-weight: bold;
     padding: 15px 70px;
     display: table;
@@ -141,7 +134,7 @@ nav {
 
 .footer {
     background: #1b8427;
-    color: white;
+    color: #FFF;
 }
 
 .footer h1 {
@@ -149,7 +142,7 @@ nav {
 }
 
 .footer .frow-1 a {
-    color: white;
+    color: #FFF;
 }
 
 .footer .frow-1 i {
@@ -164,7 +157,7 @@ nav {
     padding: 4px 0;
     text-decoration: none;
     margin-left: 15px;
-    color: white;
+    color: #FFF;
 }
 
 .footer .frow-3 p,
@@ -179,7 +172,7 @@ nav {
 }
 
 .footer-copyright {
-    color: white;
+    color: #FFF;
     background: #0d4717;
 }
 
