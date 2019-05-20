@@ -196,6 +196,22 @@ nav {
     background: #0d4717;
 }
 
+.back-to-top {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
+
+.back-to-top i {
+    color: #0d4717;
+    font-size: 3rem;
+}
+
+.back-to-top:hover {
+    color: #0d4714;
+}
 
 @media (max-width: 540px) {
     .carousel-caption h1 {
@@ -217,6 +233,12 @@ nav {
         height: 40px;
         font-size: 0.8rem;
     }
+
+    .back-to-top {
+        bottom: 4rem;
+        right: 1rem;
+    }
+
 }
 
 @media (max-width:768px) {
