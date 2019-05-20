@@ -60,8 +60,12 @@ nav {
     transition: transform 0.3s ease-in-out;
 }
 
-.navbar a:hover::before {
+.navbar a:hover:not(.active)::before {
     transform: translate(-50%, 0) scaleX(1);
+}
+
+.navbar a.active {
+    border-bottom: 2px solid #FFF;
 }
 
 .carousel-indicators li {
