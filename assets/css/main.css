@@ -8,10 +8,6 @@
     src: url("../../lib/fonts/Oceania-Regular.ttf");
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background: #f7f7f7;
     font-family: "Ebrima Regular";
